@@ -1,0 +1,37 @@
+local SlaughterHouse = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Noclip = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local ClickTp = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local HeadTp = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local Sprint = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local GrabCoins = Instance.new("TextButton")
+local God = Instance.new("TextButton")
+local TeleportLobby = Instance.new("TextButton")
+local GMS = Instance.new("TextButton")
+local WS = Instance.new("TextButton")
+local BTD = Instance.new("TextButton")
+local BTG = Instance.new("TextButton")
+local BTC = Instance.new("TextButton")
+local BT = Instance.new("TextButton")
+local LOCK = Instance.new("TextButton")
+local Value = Instance.new("TextBox")
+local Open = Instance.new("TextButton")
+ 
+-- Properties
+ 
+SlaughterHouse.Name = "SlaughterHouse"
+SlaughterHouse.Parent = game.Players.LocalPlayer.PlayerGui
+SlaughterHouse.Enabled = true
+SlaughterHouse.ResetOnSpawn = false
+ 
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = SlaughterHouse
+MainFrame.BackgroundColor3 = Color3.new(0.580392, 0, 0)
+MainFrame.BorderColor3 = Color3.new(0.223529, 0.34902, 0.439216)
+MainFrame.BorderSizePixel = 4
+MainFrame.Position = UDim2.new(0, 800, 0, 200)
+MainFrame.Size = UDim2.new(0, 500, 0, 300)
